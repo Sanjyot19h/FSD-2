@@ -15,12 +15,12 @@ Creating a Single Page Application (SPA) :
 Commands:
 
 --Creating SPA:
-npm create vite@latest "appname"
-cd "appname"
-npm install
+-npm create vite@latest "appname"
+-cd "appname"
+-npm install
 
 --Navigation 
-npm install react-router-dom
+-npm install react-router-dom
  
 --Start deployment server
-npm run dev
+-npm run dev
