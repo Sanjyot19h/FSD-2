@@ -1,4 +1,3 @@
-
 from flask import Blueprint, request, jsonify
 
 student_bp = Blueprint('students', __name__)
