@@ -8,8 +8,7 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Email validation regex
+ 
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailPattern.test(email)) {

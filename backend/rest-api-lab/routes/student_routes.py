@@ -40,7 +40,7 @@ def get_student(id):
 
     return jsonify({"message": "Student not found"}), 404
 
-
+    
 # UPDATE Student
 @student_bp.route("/students/<int:id>", methods=["PUT"])
 def update_student(id):
