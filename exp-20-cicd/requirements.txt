@@ -1,0 +1,4 @@
+Flask
+flask-mysqldb
+pytest
+gunicorn
